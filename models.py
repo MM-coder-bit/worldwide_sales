@@ -34,4 +34,4 @@ def get_top_products(db: Session):
     except Exception as e:
         logger.error(f"Erro ao executar consulta em /top-products: {str(e)}")
         # Retorna lista vazia em caso de erro.
-        return []git 
+        return []
