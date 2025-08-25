@@ -1,3 +1,4 @@
 # ---> Miscellaneous
 .vscode/
 .env
+__pycache__
