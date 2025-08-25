@@ -1,0 +1,12 @@
+fastapi==0.115.0               # Framework para APIs RESTful
+uvicorn==0.30.6                # Servidor ASGI para rodar a API FastAPI localmente
+sqlalchemy==2.0.35             # ORM para interação com banco de dados PostgreSQL
+psycopg2-binary==2.9.9         # Adaptador PostgreSQL para conexão com o banco
+langchain==0.2.16              # Framework para aplicações com modelos de linguagem
+langchain-google-genai==1.0.10 # Integração com Google Gemini para gerar consultas SQL
+langchain-experimental==0.0.65 # Módulo com SQLDatabaseChain para consultas dinâmicas
+langchain-community==0.2.16    # Utilitários como SQLDatabase para conectar ao banco
+python-dotenv==1.0.1           # Carrega variáveis de ambiente do arquivo .env
+streamlit==1.38.0              # Framework para interfaces web interativas
+ipython==8.16.1                # Interpretador interativo para testes e depuração
+pydantic==2.9.2                # Validação de dados para FastAPI
